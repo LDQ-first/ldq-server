@@ -1,6 +1,6 @@
 {
-  "name": "node-anywhere",
-  "version": "0.1.1",
+  "name": "node-anydoor",
+  "version": "0.1.2",
   "description": "",
   "main": "src/app.js",
   "bin": {
