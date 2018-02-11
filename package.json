@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "fix": "eslint --fix",
-    "sv": "supervisor" 
+    "sv": "supervisor"
   },
   "pre-commit": [
     "fix",
@@ -30,6 +30,7 @@
     "supervisor": "^0.12.0"
   },
   "dependencies": {
-    "chalk": "^2.3.0"
+    "chalk": "^2.3.0",
+    "handlebars": "^4.0.11"
   }
 }

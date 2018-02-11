@@ -1,0 +1,13 @@
+body {
+  margin: 30px;
+  background: rgba(66, 173, 209, 1) linear-gradient(180deg, rgba(99, 163, 227, 1), rgba(37, 184, 194, 1))
+}
+a {
+  display: block;
+  font-size: 30px;
+  color: rgba(15, 98, 181, 1);
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(254, 162, 133, 1);
+}
