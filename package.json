@@ -1,10 +1,10 @@
 {
-  "name": "node-anydoor",
-  "version": "0.1.2",
+  "name": "ldq-server",
+  "version": "0.2.0",
   "description": "",
   "main": "src/app.js",
   "bin": {
-    "node-anydoor": "bin/node-anydoor"
+    "ldq-server": "bin/ldq-server"
   },
   "scripts": {
     "lint": "eslint .",
@@ -17,15 +17,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LDQ-first/node-anydoor.git"
+    "url": "git+https://github.com/LDQ-first/ldq-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LDQ-first/node-anydoor/issues"
+    "url": "https://github.com/LDQ-first/ldq-server/issues"
   },
-  "homepage": "https://github.com/LDQ-first/node-anydoor#readme",
+  "homepage": "https://github.com/LDQ-first/ldq-server#readme",
   "devDependencies": {
     "babel-eslint": "^8.2.1",
     "eslint": "^4.17.0",

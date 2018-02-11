@@ -2,7 +2,7 @@ const yargs = require('yargs')
 const Server = require('./app')
 
 const argv = yargs
-    .usage('node-anydoor [options]')
+    .usage('ldq-server [options]')
     .option('p', {
       alias: 'port',
       describe: 'port number',
