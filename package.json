@@ -1,0 +1,35 @@
+{
+  "name": "node-anywhere",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix",
+    "sv": "supervisor" 
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LDQ-first/node-anydoor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LDQ-first/node-anydoor/issues"
+  },
+  "homepage": "https://github.com/LDQ-first/node-anydoor#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0",
+    "pre-commit": "^1.2.2",
+    "supervisor": "^0.12.0"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
+}
